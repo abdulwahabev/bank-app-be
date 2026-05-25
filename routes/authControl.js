@@ -26,7 +26,6 @@ router.post("/register", async (req, res) => {
             role: 'user',
             status: 'incomplete', // Shuruat mein incomplete
             balance: 0,
-            accountNumber: null,
             // Empty objects initialize karein taake 500 error na aaye
             kycDetails: {
                 cnic: "",

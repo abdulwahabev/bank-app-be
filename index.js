@@ -7,7 +7,7 @@ const app = express();
 const cors = require("cors");
 
 app.use(cors({
-    origin: ["https://bank-app-fe.vercel.app", "http://localhost:5173", "http://localhost:3000"],
+    origin: ["https://bank-app-fe.vercel.app", "http://localhost:5173", "http://localhost:3000","https://bank-app-fe.vercel.app"],
     credentials: true
 }));
 
